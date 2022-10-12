@@ -137,13 +137,113 @@ body{
     transition: 0.5s;
     margin: 10px;
 }
-#hero .btn-get-started{}
-
-
-
-
-
-
-
+#hero .btn-get-started{
+    background: rgb(248, 248, 19);
+    border: 2px solid brown;
+    color: white;
+} 
+#hero .btn-get-started:hover{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
 /*====Hero section End======*/
+/*====category section======*/
+.category{
+    padding-bottom: 40px;
+}
+.category .card{
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+    background: transparent;
+}
+.category .card-img{
+    width: calc(100% + 60px);
+    margin-left: -30px;
+     overflow: hidden;
+     z-index: 9;
+     border-radius: 0;
+}
+
+.category .card-img img{
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+    
+}
+.category .card-body{
+    z-index: 10;
+    background: #ff9b04a6;
+    border-top: 4px solid #f08902;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(241, 159,5 , 0.5);
+    margin-top: -60px;
+    transition: 0.3s;
+}
+.category .card-title{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.category .card-title a{
+    color: black;
+    transition: 0.3s;
+}
+.category .card-text{
+    color: black;
+}
+.category .read-more a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 0.3s;
+}
+.category .read-more a{
+    color: rgb(122, 83, 9);
+}
+.category .card:hover img{
+    transform: scale(1.1);
+
+}
+.category .card:hover .card-body{
+    border-color: yellow;
+}
+.category .card:hover .card-body .card-title a{
+    color: #854101;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====category section======*/
 
