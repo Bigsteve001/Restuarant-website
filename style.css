@@ -514,35 +514,54 @@ body{
 .blog-start .btn-custom i{
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*====End of Blog section section======*/
+/*====Booking section======*/
+.make-reservation{
+    width: 100%;
+    background: rgba(231, 151, 2, 0.5);
+}
+.make-reservation .form-group label{
+    font-weight: bold ;
+    color: black;
+}
+@media (max-width:768px){
+    .make-reservation .form-group .select-wrap{
+        position: relative;
+    }
+}
+.btn-book{
+    display: inline-block;
+    vertical-align: middle;
+    color: white!important;
+    background: black!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====End of Booking  section======*/
 
