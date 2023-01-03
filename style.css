@@ -242,6 +242,8 @@ body{
     z-index: 0;
     margin-left: auto;
     margin-right: auto;
+    object-fit: contain;
+    
     
 }
 .product .img:after{
